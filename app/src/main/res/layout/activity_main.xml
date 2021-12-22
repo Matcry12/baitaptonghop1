@@ -30,14 +30,14 @@
             android:layout_width="50dp"
             android:layout_height="40dp"
             android:background="#00FFFFFF"
-            android:drawableLeft="@drawable/icons8_email_send_24"
+            android:drawableLeft="@drawable/ic_baseline_near_me_24"
             />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="41dp"
             android:background="#00FFFFFF"
-            android:drawableLeft="@drawable/__x_a_background_ba_dau_cham" />
+            android:drawableLeft="@drawable/ic_baseline_more_vert_24" />
 
     </LinearLayout>
    <EditText

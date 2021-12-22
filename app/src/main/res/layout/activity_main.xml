@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="78dp"
+            android:layout_height="40dp"
+            android:background="#00FFFFFF"
+            android:drawableLeft="@drawable/mui_ten_60x60" />
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:text="Compose"
+            android:textSize="26sp"
+            />
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:background="#00FFFFFF"
+            android:drawableLeft="@drawable/kp_ghim" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:background="#00FFFFFF"
+            android:drawableLeft="@drawable/icons8_email_send_24"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:background="#00FFFFFF"
+            android:drawableLeft="@drawable/__x_a_background_ba_dau_cham" />
+
+    </LinearLayout>
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="From:"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="To:"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cc:"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Bcc:"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Subject:"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:hint="Compose email"
+        android:background="@color/white"/>
+</LinearLayout>

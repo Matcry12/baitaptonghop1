@@ -29,6 +29,7 @@
             android:drawableLeft="@drawable/kp_ghim" />
 
         <Button
+            android:id="@+id/button"
             android:layout_width="50dp"
             android:layout_height="40dp"
             android:background="#00FFFFFF"
@@ -43,36 +44,42 @@
 
     </LinearLayout>
    <EditText
+       android:id="@+id/from"
        android:layout_width="match_parent"
        android:textColorHint="@color/black"
        android:layout_height="wrap_content"
        android:textColor="@color/black"
        android:hint="From:"/>
     <EditText
+        android:id="@+id/to"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColorHint="@color/black"
         android:textColor="@color/black"
         android:hint="To:"/>
     <EditText
+        android:id="@+id/cc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColorHint="@color/black"
         android:textColor="@color/black"
         android:hint="Cc:"/>
     <EditText
+        android:id="@+id/bcc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/black"
         android:textColorHint="@color/black"
         android:hint="Bcc:"/>
     <EditText
+        android:id="@+id/sub"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColorHint="@color/black"
         android:textColor="@color/black"
         android:hint="Subject:"/>
     <EditText
+        android:id="@+id/ce"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textMultiLine"
